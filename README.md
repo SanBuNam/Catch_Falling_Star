@@ -1,6 +1,8 @@
 # Catch_Falling_Star
+```
 Codes has been merged from https://github.com/SanBuNam/JS_games/tree/master/JS_Breakout
 Deployed on Github - https://sanbunam.github.io/Atari_Breakout_game/
+```
 ## Description
 ```
 Built with HTML, Vanilla JavaScript, and CSS.
