@@ -1,5 +1,7 @@
 # Catch_Falling_Star
-https://sanbunam.github.io/Atari_Breakout_game/
+Deployed :
+
+https://sanbunam.github.io/Catch_Falling_Star/
 
 ## Description
 ```
