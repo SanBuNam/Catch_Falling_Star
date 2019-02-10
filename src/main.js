@@ -68,8 +68,8 @@ sound = function(src) {
   };
 };
 
-var eatingSound = new sound("sound/eat.mp3");
-var droppingSound = new sound("sound/drop.mp3");
+var eatingSound = new sound("./src/sound/eat.mp3");
+var droppingSound = new sound("./src/sound/drop.mp3");
 
 background.onload = function() {
   blood.onload = function() {
@@ -407,20 +407,20 @@ background.onload = function() {
                     intervalVar = setInterval(updatePosition, 10);
                   };
                 };
-                fruit.src = "images/poison.png";
+                fruit.src = "./src/images/poison.png";
               };
-              tile.src = "images/tile.png";
+              tile.src = "./src/images/tile.png";
             };
-            food.src = "images/star.png";
+            food.src = "./src/images/star.png";
           };
-          catcherFour.src = "images/catcher4.png";
+          catcherFour.src = "./src/images/catcher4.png";
         };
-        catcherThree.src = "images/catcher3.png";
+        catcherThree.src = "./src/images/catcher3.png";
       };
-      catcherTwo.src = "images/catcher2.png";
+      catcherTwo.src = "./src/images/catcher2.png";
     };
-    catcherOne.src = "images/catcher1.png";
+    catcherOne.src = "./src/images/catcher1.png";
   };
-  blood.src = "images/gameOver.png";
+  blood.src = "./src/images/gameOver.png";
 };
-background.src = "images/starBackground.jpg";
+background.src = "./src/images/starBackground.jpg";
