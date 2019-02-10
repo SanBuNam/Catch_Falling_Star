@@ -81,8 +81,9 @@ background.onload = function() {
               tile.onload = function() {
                 fruit.onload = function() {
                   ctx.drawImage(background, 0, 0, 500, 500);
-                  ctx.fillStyle = "blue";
                   ctx.font = "bolder 30px Calibri";
+                  ctx.fillStyle = "blue";
+                  ctx.fillText("Falling star game", 140, 200);
                   ctx.fillText("Click here to start the game", 80, 250);
 
                   drawObject = function(object, x, y, width, height) {
